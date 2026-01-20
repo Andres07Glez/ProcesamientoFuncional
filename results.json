@@ -1,0 +1,74 @@
+{
+  "dataset_info": {
+    "name": "Restaurant Business",
+    "columns": {
+      "NUM1": "Price",
+      "NUM2": "Quantity",
+      "TEXT": "Item"
+    },
+    "params": {
+      "L": 15,
+      "PAD_CHAR": "*"
+    }
+  },
+  "statistics": {
+    "NUM1_Price": {
+      "sum": 104139,
+      "mean": 6.6,
+      "std": 4.84,
+      "median": 5,
+      "min": 1,
+      "max": 20
+    },
+    "NUM2_Quantity": {
+      "sum": 47574,
+      "mean": 3.02,
+      "std": 1.41,
+      "median": 3,
+      "min": 1,
+      "max": 5
+    }
+  },
+  "text_transformation_examples": [
+    {
+      "original": "Side Salad",
+      "transformed": "SIDE SALAD*****"
+    },
+    {
+      "original": "Mashed Potatoes",
+      "transformed": "MASHED POTATOES"
+    },
+    {
+      "original": "Grilled Chicken",
+      "transformed": "GRILLED CHICKEN"
+    },
+    {
+      "original": "Pasta Alfredo",
+      "transformed": "PASTA ALFREDO**"
+    },
+    {
+      "original": "Salmon",
+      "transformed": "SALMON*********"
+    },
+    {
+      "original": "Garlic Bread",
+      "transformed": "GARLIC BREAD***"
+    },
+    {
+      "original": "Vegetarian Platter",
+      "transformed": "VEGETARIAN PLAT"
+    },
+    {
+      "original": "Brownie",
+      "transformed": "BROWNIE********"
+    },
+    {
+      "original": "Salmon",
+      "transformed": "SALMON*********"
+    },
+    {
+      "original": "Salmon",
+      "transformed": "SALMON*********"
+    }
+  ]
+}
